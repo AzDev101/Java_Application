@@ -1,0 +1,21 @@
+A keyword is a word that has a special meaninig to the compiler. They are usually written in a Blue color text and they can't be used to name a variable.
+All reserved words in java are in lower cases
+The main method is an entry point to which your program will run and without the main method, the program will NEVER run. The syntax for this main method is as follows "Public static void main(String[] args) {}"
+In the above syntax, Public means that the code can be seen and used by other codes in that folder.Class names in java must start with capital letter.
+
+
+A method in java in identified by the presence of opening and closing brackets after the method name. Eg print("Hello World"); .
+We have 3 diff types of print method on java, they include:
+* print():Outputs text to the console without appending a new line character at the end.
+* println():Outputs text to the console and appends a new line character at the end and, which moves the cursor to the next line.
+* printf():Outputs text with form/atted data. It allows you to format
+%s: Strings
+%d: Decimal integer AKA whole numbers(5000)
+%f: Floating-point numbers(12.45)
+%.nf:Floating-point numbers with n decimal places
+%c: Characters
+%b: Boolean(True/False)
+
+JAVA DATA TYPES: Primitive and non-primitive data types
+examples of primitive data types are Boolean(Bool), character, integer, float
+
