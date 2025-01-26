@@ -18,7 +18,7 @@ public class SentinelLoop{
 			}
 			sum += num;
 		}
-		System.out.printf("The total sum is: %d "+ sum);
+		System.out.printf("The total sum is: %d",+ sum);
 		
 		scanner.close();
 	}
