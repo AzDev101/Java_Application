@@ -36,10 +36,10 @@ public class Employee {
    }
    
     public String getSocialSecurityNumber(){
-    return socialSecurityNumber;
+        return socialSecurityNumber;
    }
    @Override public String toString(){
-      return String.format("%s: %s %s %s\n%s: %s","Employee Details", 
-      employeeId, firstName,lastName, "Social Security Number", socialSecurityNumber);
+      return String.format("%-15s: %-25s%n%-15s: %-25s%n%-15s: %-25s","Employee Details", 
+      employeeId,"Full Name", firstName + " " + lastName, "Social Security Number", socialSecurityNumber);
    }
 }
