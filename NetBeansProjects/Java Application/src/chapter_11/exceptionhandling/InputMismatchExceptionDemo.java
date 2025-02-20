@@ -22,3 +22,4 @@ public class InputMismatchExceptionDemo {
         System.out.printf("%d is a valid integer %n", num);
     }
 }
+
