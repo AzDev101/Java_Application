@@ -10,7 +10,7 @@ import javax.swing.JScrollPane;
 public class JTextAreaExample {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Text Area Demo"); 
-        JTextArea textArea = new JTextArea(5,20); 
+        JTextArea textArea = new JTextArea(2,20); 
         JLabel label = new JLabel("Message"); 
         JPanel panel = new JPanel(); 
         JScrollPane scrollBar = new JScrollPane(textArea);

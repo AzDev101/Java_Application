@@ -17,9 +17,13 @@ public class JRadioButtonExample {
        
        buttonGroup.add(radioButton1);
        buttonGroup.add(radioButton2);
+       buttonGroup.add(radioButton3);
+       
        
        panel.add(radioButton1);
        panel.add(radioButton2);
+       panel.add(radioButton3);
+       
        
        
        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
